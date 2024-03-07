@@ -1,33 +1,44 @@
 <html>
     <head></head>
     <body style="background-color:brown">
-        <h1 style="background-color:blue;">Personal Data</h1>
+        <h1> 
+            <span style="background-color:aqua;">Personal Data</span>
+        </h1>
+        <br/>
+        <br/>
+        <br/>
         <form >
             <div style="background-color:orange">
+                <h2>
+                    <span style="background-color: aqua; padding-bottom: 50px; padding-top: 50px; margin: 15px;">Your data</span>
+                </h2>
                 <br/>
-                <label for="fn">Firstname:</label>
+                <br/>
+                <br/>
+                <br/>
+                <label for="fn">Firstname<span style="color:orange;">mnn</span> :</label>
                 <input id="fn" name="Firstname" minlength="3" maxlength="15" placeholder="ex:seif"/> 
                 <br/>
                 <br/>
-                <label for="ln">Lastname: </label>
+                <label for="ln">Lastname<span style="color:orange;">lklkl</span> :</label>
                 <input id="ln" name="Lastname" minlength="3" maxlength="15" placeholder="ex:moawad"/>
                 <br/>
                 <br/>
             </div>
             <br/>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="Phone" minlength="15" maxlength="15"/> 
+            <label for="phone">Phone<span style="color:brown;">jfsfjkjsk</span> :</label>
+            <input type="number" id="phone" name="Phone" minlength="12" maxlength="12"/> 
             <br/>
             <br/>
-            <label for="email">Email:</label>
+            <label for="email">Email<span style="color:brown;">jfsfjkjsk</span> :</label>
             <input type="email" id="email" name="Email" />
             <br/>
             <br/>
-            <label for="password">Password:</label>
+            <label for="password">Password<span style="color:brown;">adas</span> :</label>
             <input type="password" id="password" name="Password"/> 
             <br/>
             <br/>
-            <label for="re-password">Re-Password:</label>
+            <label for="re-password">Re-Password<span style="color:brown;">s</span> :</label>
             <input type="password" id="re-password" name="Re-Password"/>
             <br/>
             <br/>
@@ -48,24 +59,23 @@
             <br/>
             <br/>
             <br/>
-
-            <select>
+            <select name="University">
                 <optgroup label="public Universties">
-                    <option>Cairo University</option>
-                    <option>Alex University</option>
-                    <option>Helwan University</option>
+                    <option value="Cairo">Cairo University</option>
+                    <option value="Alex">Alex University</option>
+                    <option value="Helwan">Helwan University</option>
                 </optgroup>
                 <optgroup label="Private Universties">
-                    <option>Msa University</option>
-                    <option>Auc University</option>
-                    <option>Guc University</option>
+                    <option value="Msa" selected>Msa University</option>
+                    <option value="Auc">Auc University</option>
+                    <option value="Guc">Guc University</option>
                 </optgroup>
             </select>
             <br/>
             <br/>
             <br/>
             <button type="submit">
-                <img src="E:\Route\Hey-Dude\IMG_9017.jpeg" alt="but"/>
+                <img src="Register.png" alt="Register" width="125" height="75"/>
             </button>
         </form>
     </body>
